@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Types\NumericInquiry.ts" />
+    <None Remove="Types\Requestor.ts" />
+    <None Remove="Types\RequestPayload.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="Types\NumericInquiry.ts" />
+    <TypeScriptCompile Include="Types\Requestor.ts" />
+    <TypeScriptCompile Include="Types\RequestPayload.ts" />
+  </ItemGroup>
+
 </Project>

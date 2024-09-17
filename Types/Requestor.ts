@@ -1,0 +1,3 @@
+﻿type Requestor = {
+    subscriberCode: string;
+};
